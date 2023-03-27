@@ -1,0 +1,53 @@
+:root {
+  --main-color: rgb(255 255 255 / 80%);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: cursive;
+  display: grid;
+  place-items: center;
+}
+.head-line {
+  margin: 20px auto;
+  text-align: center;
+  background-color: #333333e6;
+  color: #60dbd0;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+/* Random Background Color */
+div {
+  padding: 20px;
+  text-align: center;
+}
+.btn {
+  margin: 20px auto;
+  text-align: center;
+  background-color: #0095ffe6;
+  color: #010c0b;
+  width: fit-content;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-family: cursive;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.color-code {
+  color: #010c0b
+}
