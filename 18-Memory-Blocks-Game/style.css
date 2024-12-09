@@ -1,21 +1,32 @@
 :root {
-  --main-color: rgb(255 255 255 / 80%);
+  --main-color: #f6f6f6f6;
 }
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 body {
-  font-family: cursive;
-  display: grid;
-  place-items: center;
+  font-family: Arial, Tahoma, sans-serif;
 }
 
-/* Random Background Color */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+/*  */
 img {
   max-width: 17%;
+}
+.info-container {
+  width: 1080px;
+  margin: 20px auto 0;
+  background-color: var(--main-color);
+  padding: 20px;
+  font-size: 24px;
+  overflow: hidden;
+  border: 2px solid #2196f3;
+}
+.info-container .name {
+  float: left;
+  width: 50%;
+}
+.info-container .tries {
+  float: right;
+  width: 50%;
+  text-align: center;
 }
